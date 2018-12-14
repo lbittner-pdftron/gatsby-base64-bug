@@ -1,12 +1,7 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site.
+# Gatsby Bundling Issue
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+When you build the project, you will see that every page component has every asset bundled inside it.
 
-Or [view the live demo here](https://gatsby-starter-hello-world-demo.netlify.com/).
+![](./assets/bundle.png)
 
-## Running in development
-`gatsby develop`
+In my real world case, every asset is included in app-[hash].js. 
